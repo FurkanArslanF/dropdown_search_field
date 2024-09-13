@@ -2,6 +2,10 @@
 
 <p><strong>DropDownSearchableField</strong> is a customizable Flutter widget that provides a searchable dropdown menu. This widget allows users to filter and select items from a list in real-time, making it ideal for forms and search-driven applications.</p>
 
+<p align="center">
+<img  src='https://github.com/user-attachments/assets/2ccd7a17-219a-4cd9-82b6-9a9190e34eca' width='200'>
+</p>
+
 <h2>Features</h2>
 <ul>
   <li>Real-time search and filtering functionality.</li>
