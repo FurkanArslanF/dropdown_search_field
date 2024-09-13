@@ -1,6 +1,6 @@
 name: dropdown_searchable_field
 description: "It allows users to filter and select items in real-time, making it perfect for forms and search inputs. Easily styled and flexible for various use cases"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/FurkanArslanF
 git: https://github.com/FurkanArslanF/dropdown_searchable_field
 repository: https://github.com/FurkanArslanF/dropdown_searchable_field

@@ -20,7 +20,7 @@
 <p>Add the following dependency in your <code>pubspec.yaml</code> file:</p>
 
 <pre><code>dependencies:
-  dropdown_searchable_field: ^0.0.1
+  dropdown_searchable_field: ^0.0.2
 </code></pre>
 
 <p>Then, run <code>flutter pub get</code> to install the package.</p>
