@@ -16,7 +16,7 @@
 <p>Add the following dependency in your <code>pubspec.yaml</code> file:</p>
 
 <pre><code>dependencies:
-  dropdown_search_field: ^0.0.1
+  dropdown_searchable_field: ^0.0.1
 </code></pre>
 
 <p>Then, run <code>flutter pub get</code> to install the package.</p>
@@ -26,7 +26,7 @@
 <p>Here’s a basic example of how to use the <strong>DropDownSearchableField</strong> widget:</p>
 
 <pre><code>import 'package:flutter/material.dart';
-import 'package:dropdown_search_field/dropdown_search_field.dart';
+import 'package:dropdown_searchable_field/dropdown_searchable_field.dart';
 
 void main() {
   runApp(MyApp());
