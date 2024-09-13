@@ -1,6 +1,6 @@
-<h1>DropDownSearchField</h1>
+<h1>DropDownSearchableField</h1>
 
-<p><strong>DropDownSearchField</strong> is a customizable Flutter widget that provides a searchable dropdown menu. This widget allows users to filter and select items from a list in real-time, making it ideal for forms and search-driven applications.</p>
+<p><strong>DropDownSearchableField</strong> is a customizable Flutter widget that provides a searchable dropdown menu. This widget allows users to filter and select items from a list in real-time, making it ideal for forms and search-driven applications.</p>
 
 <h2>Features</h2>
 <ul>
@@ -23,7 +23,7 @@
 
 <h2>Usage</h2>
 
-<p>Here’s a basic example of how to use the <strong>DropDownSearchField</strong> widget:</p>
+<p>Here’s a basic example of how to use the <strong>DropDownSearchableField</strong> widget:</p>
 
 <pre><code>import 'package:flutter/material.dart';
 import 'package:dropdown_search_field/dropdown_search_field.dart';
@@ -37,10 +37,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('DropDownSearchField Example')),
+        appBar: AppBar(title: Text('DropDownSearchableField Example')),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
-          child: DropDownSearchField(
+          child: DropDownSearchableField(
             items: ['Apple', 'Banana', 'Orange', 'Pineapple'],
             controller: TextEditingController(),
             itemBuilder: (context, item) {

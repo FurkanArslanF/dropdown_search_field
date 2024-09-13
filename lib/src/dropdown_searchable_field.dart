@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class DropDownSearchField extends StatefulWidget {
-  const DropDownSearchField(
+class DropDownSearchableField extends StatefulWidget {
+  const DropDownSearchableField(
       {super.key,
       required this.items,
       required this.controller,
@@ -34,10 +34,10 @@ class DropDownSearchField extends StatefulWidget {
   final EdgeInsets? textFormscrollPadding;
 
   @override
-  State<DropDownSearchField> createState() => _DropDownSearchFieldState();
+  State<DropDownSearchableField> createState() => _DropDownSearchableFieldState();
 }
 
-class _DropDownSearchFieldState extends State<DropDownSearchField> {
+class _DropDownSearchableFieldState extends State<DropDownSearchableField> {
   List<String?> _items = [];
   List<String?> _filteredItems = [];
   bool _isTapped = false;
