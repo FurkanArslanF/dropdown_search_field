@@ -1,0 +1,19 @@
+name: dropdown_search_field
+description: "It allows users to filter and select items in real-time, making it perfect for forms and search inputs. Easily styled and flexible for various use cases"
+version: 0.0.1
+homepage: https://github.com/FurkanArslanF
+git: https://github.com/FurkanArslanF/dropdown_search_field
+repository: https://github.com/FurkanArslanF/dropdown_search_field
+
+environment:
+  sdk: ^3.5.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
